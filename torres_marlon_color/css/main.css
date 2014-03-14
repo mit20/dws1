@@ -1,0 +1,56 @@
+/*
+Marlon Torres
+    B3 Assignment: CSS Color
+    Filename: main.css
+    March 13, 2014
+*/
+
+
+/* hex color for background of the body of the page */
+body {
+    background-color: #E4E1DF;
+    padding: 20px;
+}
+
+/* font weight is normal for h1, h2, h3*/
+h1, h2, h3 {
+    font-weight: normal;
+    padding: 10px;
+}
+
+h1 {
+    font-family: Georgia, Times, serif;
+    color: #F74800;
+    background-color: #333333;
+}
+
+h2 {
+    font-family: Gill Sans, Arial, sans-serif;
+    color: #E4E1DF;
+    background-color: #465D85;
+}
+
+h3 {
+    font-family: Gill Sans, Arial, sans-serif;
+    font-size: 95%;
+    color: #E4E1DF;
+    background-color: #00274C;
+}
+
+p {
+    font-family: Arial, Verdana, sans-serif;
+}
+
+
+/* color name is white and hsl has been applied */
+ol#nav {
+    background-color: white;
+    background-color: hsl(0, 50%, 95%);
+}
+
+/* Used RGB color for this list and the OPACITY property was used for the background. */
+ul#lens {
+    color: rgb(0, 39, 76);
+    background-color: rgb(70, 93, 133);
+    opacity: .7;
+}
