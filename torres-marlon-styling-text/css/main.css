@@ -1,0 +1,89 @@
+/*
+Marlon Torres
+    B4 Assignment: Styling Text
+    Filename: main.css
+    March 13, 2014
+*/
+
+
+/* hex color for background of the body of the page */
+body {
+    background-color: #E4E1DF;
+    padding: 20px;
+}
+
+/* font weight is normal for h1, h2, h3*/
+h1, h2, h3 {
+    font-weight: normal;
+    padding: 10px;
+}
+
+
+/* Google fonts is used for H1 */
+h1 {
+    color: #F74800;
+    background-color: #333333;
+    font-family: 'Arvo', serif;
+}
+
+/* Text transform applied and  Font shorthand with Google font. */
+h2 {
+    text-transform: uppercase;
+    font: normal normal bold 18px 'Arvo', serif;;
+    color: #E4E1DF;
+    background-color: #465D85;
+}
+
+h3 {
+    font-family: Gill Sans, Arial, sans-serif;
+    font-size: 95%;
+    color: #E4E1DF;
+    background-color: #00274C;
+}
+
+/* Font shorthand font:font-style | font-variant | font-weight | font-size | line-height | font-family */
+p {
+    font: normal normal normal 14px/1.5em Arial, Verdana, sans-serif;
+}
+
+
+/* color name is white and hsl has been applied */
+ol#nav {
+    font: oblique normal normal 14px/1.5em Arial, Verdana, sans-serif;
+    background-color: white;
+    background-color: hsl(0, 50%, 95%);
+}
+
+/* Used RGB color for this list and the OPACITY property was used for the background. */
+ul#lens {
+    font: oblique normal normal 14px/1.5em Arial, Verdana, sans-serif;
+    color: rgb(0, 39, 76);
+    background-color: rgb(70, 93, 133);
+    opacity: .7;
+}
+
+
+/* Applied text-align to move the Resource link to the right of the page. */
+p#resource {
+    text-align: right;
+}
+
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+}
+
