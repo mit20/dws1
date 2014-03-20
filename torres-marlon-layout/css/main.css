@@ -135,6 +135,7 @@ a:active {
     display: inline;
 }
 
+/* added clear property */
 #footer {
     clear: both;
 }
