@@ -1,0 +1,299 @@
+/*
+Marlon Torres
+    B9 Assignment: Forms
+    Filename: main.css
+    March 25, 2014
+*/
+
+/* hex color for background of the body of the page */
+
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;}
+
+body {
+    width: 90%;
+    background: url(../images/steel.png) repeat 50% 50%; /*shortand used for background image in the following order image, repeat, position. */
+    padding: 20px;
+}
+
+/* box style for container, margins centered my page.*/
+
+#container{
+    background-color: #E4E1DF;
+    max-width: 960px;
+    min-width: 75%;
+    margin: 1% auto 1% auto;
+    padding: 20px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+
+/* Added two columns and changed widths to percentages. */
+.column1of2 {
+    float: right;
+    width: 42%;
+    margin: 1%;
+    clear: right;
+}
+
+.column2of2 {
+    float: left;
+    width: 52%;
+    margin: 1%;
+    clear: left;
+}
+
+
+/* font weight is normal for h1, h2, h3*/
+h1, h2, h3 {
+    font-weight: normal;
+    padding: 10px;
+
+}
+
+
+/* Google fonts is used for H1 and added margins and padding */
+h1 {
+    color: #F74800;
+    background-color: #333333;
+    font-family: 'Arvo', serif;
+    margin: 5px auto 5px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Text transform applied and  Font shorthand with Google font and added border radius. */
+h2 {
+    text-transform: uppercase;
+    font: normal normal bold 1.125em 'Arvo', serif;;
+    color: #E4E1DF;
+    background-color: #465D85;
+    border-radius: 5px;
+}
+
+h3 {
+    font-family: Gill Sans, Arial, sans-serif;
+    font-size: 95%;
+    color: #E4E1DF;
+    background-color: #00274C;
+    border-radius: 5px;
+}
+
+h4 {
+    font: normal normal bold 20px Gill Sans, Arial, sans-serif;
+    text-align: center;
+    color: #E4E1DF;
+    background-color: #465D85;
+    border-radius: 5px;
+  }
+
+/* Font shorthand font:font-style | font-variant | font-weight | font-size | line-height | font-family */
+p {
+    font: normal normal normal 14px/1.5em Arial, Verdana, sans-serif;
+
+   }
+
+img.align-left {
+    float: left;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+/* color name is white and hsl has been applied and , box shadow, border radius, style and list style type.*/
+aside nav ol#list {
+    background: linear-gradient(to bottom, #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%);  /* ADDED GRADIENT TO NAVIGATION */
+    width: 90%;
+    border-radius: 5px;
+    border-style: solid;
+    list-style-type: upper-roman;
+    font: oblique normal normal 14px/1.5em Arial, Verdana, sans-serif;
+    background-color: white;
+    background-color: hsl(0, 50%, 95%);
+    box-shadow: 3px 3px 3px 3px #777777;
+}
+
+/* Used RGB color for this list and the OPACITY property was used for the background. */
+ul#lens {
+    width: 31%;
+    border-radius: 5px;
+    border-style: solid;
+    font: oblique normal normal 14px/1.5em Arial, Verdana, sans-serif;
+    color: rgb(0, 39, 76);
+    background-color: rgb(70, 93, 133);
+    opacity: .7;
+
+}
+
+table {
+    width: 100%;
+    border: 1px solid #333333;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+}
+
+th {
+    text-transform: uppercase;
+    font-size: 95%;
+    border-bottom: 2px solid #333333;
+    border-top: 2px solid #333333;
+    text-align: left;
+}
+tr.even {
+    background-color: #b5c6d0;
+}
+
+td:hover {
+    background-color: #F74800;
+}
+/* Applied text-align to move the Resource link to the right of the page. */
+p#resource {
+    text-align: right;
+}
+
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+}
+
+textarea#commentbox {
+    background-color: #fff799;
+    width: 200px;
+    height: 50px;
+}
+
+div {
+    font: normal normal normal 14px/1.5em Arial, Verdana, sans-serif;
+    margin: 10px;
+    padding-right: 5px;
+    width: 500px;
+}
+
+div#contents {
+    margin: 1%;
+    padding-right: 1%;
+    width: 95%;
+}
+
+div#searchform {
+    margin: 1%;
+    padding-right: 1%;
+    width: 95%;
+}
+
+div#members {
+    margin: 1%;
+    padding-right: 1%;
+    width: 95%;
+}
+
+label {
+    float: left;
+    width: 200px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+
+input#name {
+    background-color: #fff799;
+}
+
+input#email {
+    background-color: #fff799;
+}
+
+input#search {
+    background-color: #fff799;
+}
+
+input#name:hover {
+    background-color: #d8e1e7;
+}
+
+input#email:hover {
+     background-color: #d8e1e7;
+ }
+
+input#member:hover {
+    background-color: #d8e1e7;
+}
+
+input#password:hover {
+    background-color: #d8e1e7;
+}
+
+input#search:hover {
+    background-color: #d8e1e7;
+}
+
+input#member {
+    background-color: #fff799;
+}
+
+input#password {
+    background-color: #fff799;
+}
+
+textarea#commentbox:hover {
+    background-color: #d8e1e7;
+}
+
+textarea:focus, input:focus {
+    border: 2px solid #ff0000;
+}
+
+input#submit {
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #00274C;
+    margin-left: 210px;
+}
+
+input#login {
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #00274C;
+    margin-left: 220px;
+}
+
+
+input#searchbtn {
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #00274C;
+}
+
+#bottomlist li {
+    display: inline;
+}
+
+/* added clear property */
+footer {
+    clear: both;
+}
+
+
+
+
+
+
+
