@@ -1,0 +1,338 @@
+/*
+Marlon Torres
+    B10 Project: Final Project
+    Filename: main.css
+    March 26, 2014
+*/
+
+
+
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;}
+
+/* hex color for background of the body of the page */
+body {
+    width: 90%;
+    background: #f1efe6; /*shortand used for background image in the following order image, repeat, position. */
+    padding: 20px;
+    margin: 0 auto; /* Centers my page */
+}
+
+/* box style for container, margins centered my page.*/
+
+#container{
+    background-color: #fff;
+    max-width: 960px;
+    min-width: 75%;
+    margin: 1% auto 1% auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid #A6E500;
+    box-shadow: 7px 7px 7px #888888;
+}
+
+figure {
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+}
+
+figure.photo1{
+    text-align: center;
+    float: right;
+    padding: 0 0 5px 20px;
+}
+
+figure.photo2{
+    text-align: center;
+    float: left;
+    padding: 0 20px 5px 0;
+}
+
+figcaption {
+    color:#464646;
+    font:11px Arial, sans-serif;
+    padding: 5px;
+}
+
+img {
+    border: 1px solid #A6E500;
+    box-shadow: 4px 4px 8px #888888;
+}
+
+/* Added two columns and changed widths to percentages. */
+div.column1of3 {
+    float: left;
+    width: 300px;
+    margin: 0 0px 0 10px;
+}
+
+div.column2of3 {
+    float: left;
+    width: 300px;
+    margin: auto;
+}
+
+div.column3of3 {
+    float: left;
+    width: 300px;
+    margin: 0 10px 0 0;
+}
+
+/* font weight is normal for h2, h3, h4 */
+h2, h3, h4 {
+    padding: 10px;
+}
+
+
+/* Google fonts is used for H1 and added margins and padding */
+h1 {
+    color: #fff;
+    background:url(../images/panama5.jpg) no-repeat center center; /* NO Repeating background image with position */
+    font: normal normal 48px 'Hammersmith One', sans-serif; /* Web based font */
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+    text-shadow:3px 5px 5px #555; /* Text shadow */
+}
+
+/* Text transform applied and  Font shorthand with Google font and added border radius. */
+h2 {
+    font: normal normal 18px Arial, Verdana, sans-serif;
+    color: #fff;
+    background:url(../images/headingbg.png) repeat-x center center; /* Repeating background image with repeat and position*/
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-shadow:3px 5px 5px #555; /* Text shadow */
+}
+
+h3 {
+    font: normal normal bold 18px Gill Sans, Arial, sans-serif;
+    color: #555;
+}
+
+h4 {
+    font: normal normal bold 16px Gill Sans, Arial, sans-serif;
+    color: #555;
+}
+
+ul#list {
+    font: normal normal bold 18px Gill Sans, Arial, sans-serif;
+    width: auto;
+    padding: 15px; margin: 0px auto 0px auto;
+    border-top: 1px solid #A6E500;
+    border-bottom: 1px solid #A6E500;
+    text-align: center;
+}
+
+li.navitems {
+    display: inline; margin: 0px 3px;
+}
+
+/* Font shorthand font:font-style | font-variant | font-weight | font-size | line-height | font-family */
+p {
+    font: normal normal normal 14px/1.5em Arial, Verdana, sans-serif;
+}
+
+/* color name is white and hsl has been applied and , box shadow, border radius, style and list style type.*/
+div#searchform {
+    background: #5b9e00;
+    background-color: hsla(85, 100%, 75%, 0.5); /*HSLA color */
+    width: 24%;
+    border-radius: 5px;
+    border:1px solid rgb(91, 158, 0);
+    margin-left: 76%;
+    font: oblique normal normal 14px/1.5em Arial, Verdana, sans-serif;
+}
+
+/* Used RGB color for this list and the OPACITY property was used for the background. */
+ul#tour {
+    width: 80%;
+    border: 2px solid rgb(91, 158, 0);
+    border-radius: 5px;
+    font: oblique normal normal 14px/1.5em Arial, Verdana, sans-serif;
+    list-style-type: circle; /* Changed list-style-type */
+    color: rgb(51, 51, 51);
+    background-color: rgb(166, 229, 0);
+    opacity: .7;
+
+}
+
+table {
+    font: normal normal normal 12px/1.5em Arial, Verdana, sans-serif;
+    width: 80%;
+    border: 1px solid #333333;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #333333;
+}
+
+th {
+    text-transform: uppercase;
+    font-size: 100%;
+    border: 1px solid #333333;
+    text-align: center;
+}
+
+tr#tableheading {
+    font: normal normal normal 14px/1.5em Arial, Verdana, sans-serif;
+    color: #fff;
+    text-shadow:3px 5px 5px #888; /* Text shadow */
+    background: linear-gradient(to bottom, #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%); /* ADDED GRADIENT TO BACKGROUND OF THE TOP TABLE ROW */
+}
+
+tr.even {
+    background-color: #ccc;
+}
+
+tr:hover {
+    background-color: #A6E500;
+}
+
+/* Applied text-align to move the Resource link to the right of the page. */
+p#resource {
+    text-align: center;
+}
+
+p#note {
+    text-align: center;
+}
+
+a:link {
+    color: #5B9E00;
+    text-decoration: none;
+}
+
+a:visited {
+    color: orangered;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+}
+
+textarea#commentbox {
+    background-color: #e3ffbe;
+    width: 200px;
+    height: 50px;
+}
+
+div {
+    font: normal normal normal 14px/1.5em Arial, Verdana, sans-serif;
+    margin: 10px;
+    padding-right: 5px;
+    width: 500px;
+}
+
+div#contents {
+    margin: 1%;
+    padding-right: 1%;
+    width: 95%;
+}
+
+div#members {
+    margin: 1%;
+    padding-right: 1%;
+    width: 95%;
+}
+
+label {
+    float: left;
+    width: 200px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+input#search:hover {
+    border-radius: 10px;
+    border:1px solid rgb(91, 158, 0);
+    background-color: #b1fa4e;
+}
+
+input#name {
+    background-color: #e3ffbe;
+}
+
+input#email {
+    background-color: #e3ffbe;
+}
+
+input#search {
+    background-color: #fff;
+}
+
+input#search:hover {
+    background-color: #d8e1e7;
+}
+
+input#searchbtn {
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #5b9e00;
+}
+
+input#name:hover {
+    background-color: #b1fa4e;
+}
+
+input#email:hover {
+    background-color: #b1fa4e;
+}
+
+input#password {
+    background-color: #e3ffbe;
+}
+
+textarea#commentbox:hover {
+    background-color: #b1fa4e;
+}
+
+textarea:focus, input:focus {
+    border: 2px solid #ff0000;
+}
+
+input#submit {
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #5b9e00;
+    margin-left: 210px;
+}
+
+article#gallery {
+    overflow: auto;
+    width: 940px;
+    padding-bottom: 20px;
+
+}
+
+section#contact {
+    width: 50%;
+    border: 1px solid #5b9e00;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+img.large {
+    width: 920px;
+    height: 95px;
+    margin: 0 auto;
+}
+
+/* added clear property */
+footer {
+    clear: both;
+}
+
+
+
